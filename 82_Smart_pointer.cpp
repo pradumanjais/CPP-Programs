@@ -20,7 +20,18 @@ public:
     }
 };
 
+// int main()
+// {
+//     unique_ptr<Rectangle> ptr(new Rectangle(10,20));
 
+//     cout<<ptr->area()<<endl;
+
+//     unique_ptr<Rectangle> ptr2;  cant assign ptr2 = ptr;
+//     ptr2 = move(ptr);
+
+//     cout<<ptr2->area()<<endl;
+//     return 0;
+// }
 
 int main()
 {
